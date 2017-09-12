@@ -1,1 +1,11 @@
+.jumbotron {
+  background-color: #d5a021;
+}
 
+.jumbotron .container {
+  color:#ede7d9;
+}
+
+.navbar {
+  background-color: #4b4237;
+}
