@@ -1,11 +1,11 @@
 .jumbotron {
-  background-color: #d5a021;
+  background-color: #A4C2A5;
+  background-image: (url:"/knit-background.jpg");
+  padding-top: 156px;
 }
 
 .jumbotron .container {
-  color:#ede7d9;
 }
 
 .navbar {
-  background-color: #4b4237;
 }
