@@ -10,8 +10,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="main.css">
+
+  <script type="text/javascript">
+	function changeHeader() {
+		if (document.getElementById("myHeader").innerHTML == "Javascript"){
+			document.getElementById("myHeader").innerHTML = "Hello World";
+		}
+		else {
+			document.getElementById("myHeader").innerHTML = "Javascript";	
+		}
+	    
+	}
+  </script>
+
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -25,10 +38,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Connect</a></li>
+        <li class="active"><a href="#About">About</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Connect">Connect</a></li>
       </ul>
     </div>
   </div>
@@ -37,32 +50,114 @@
 <div class="jumbotron">
   <div class="container">
     <h1>Lily Carlson</h1>  
-    <p> I am a senior studying computer Science at Brigham Young University, and if I am not coding, I am probably knitting...</p>
+    <p>I am a senior studying computer Science at Brigham Young University, and if I am not coding, I am probably knitting...</p>
   </div>
   <img src="_yarn_banner.jpg" class="img-responsive">
 </div>
 
-<div class="container">
+<div id="About" class="container">
+  <img src="_LilyCarlson.jpg" class="center-block img-circle" alt="Linked In Photo" width="150" height="150">
   <h1>About Me</h1>
-<img src="_LilyCarlson.jpg" class="img-circle" alt="Linked In Photo" width="200" height="200">
-<img src="oxford.jpg" class="img-circle" alt="Oxford" width="200" height="200">
-  <p>This is some text.</p> 
+  <p>I grew up in Washington State and I am currently finishing my senior year at Brigham Young University. When I first came to BYU, I had no idea what code even was. All I knew was that I liked solving problems and I liked making things. Before long, computer science had me hooked. I was enthralled by the way computer science let me solve creative problems. I am especially interested in software development and social entrepreneurship.</p>
+  <p>When I am not coding, I love to knit, travel, and watch Corgi videos.</p>
 </div>
 
-<div class="container">
+<hr/>
+
+<div id="Projects" class="container">
+  <img src="_oxford.jpg" class="center-block img-circle" alt="Oxford" width="150" height="150">
   <h1>Projects</h1>
-  <p>This is some text</p>
-  <ul>
-     <li><a href="http://www.chem.byu.edu/faculty/daniel-h-ess/mecp-software-download/">MECPro</a> is used to learn more about spin state crossover during organometallic reactions.</li>
-     <li><a href="http://www.pfeef.org">PFEEF</a> (Personal Finance Employee Education Fund) is a company that teaches financial literacy in the workplace.
+  <div class="row">
+  	<p>During my undergraduate degree I have been involved on a variety of academic and work-related products. See some samples of my work below</p>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Ticket to Mars Android App</h2>
+      <img src="_ttr.png" class="center-block img-responsive" alt="Ticket to Mars Screenshot">
+      <p>Ticket to Mars was team project to build an Android Application based on the board game Ticket to Ride. We used various design patterns, such as the Observer Pattern, the Proxy Pattern, and the Plugin Pattern. We also learned how to create UML Diagrams.</p>
+    </div>
+    <div class="col-sm-4">
+      <h2>MECPro Software</h2>
+      <img src="_mecpro3.png" class="center-block img-responsive" alt="MECPro Screenshot">
+      <p>On campus I work as a computational research assistant. I helped build a piece of software called <a href="http://www.chem.byu.edu/faculty/daniel-h-ess/mecp-software-download/">MECPro</a> which is used to learn more about spin state crossover during organometallic reactions.</p>
+    </div>
+    <div class="col-sm-4">
+      <h2>PFEEF Website</h2>
+      <img src="_pfeef.png" class="center-block img-responsive" alt="PFEEF Website Screenshot">
+      <p>During a Study Abroad/Internship, I helped build a Wordpress Website for a company in the UK called <a href="http://www.pfeef.org">Personal Finance Employee Education Fund</a> (PFEEF). PFEEF is a business to business organization that coordinates with employers to teach financial literacy in the workplace.</p>
+    </div>
+  </div>
 </div>
 
-<div class="container">
+<hr />
+
+<div id="Experience" class="container">
+  <img src="_thermofisherintern.jpg" class="center-block img-circle" alt="Thermo Fisher Intern II" width="150" height="150">
   <h1>Work Experience</h1>
-  <p>This is some text</p>
+  <ol>
+  	<h3><li>Research Assistant</li></h3>
+  		<ul>
+  		<li>Chemistry Department, Brigham Young University -- Provo, Utah -- May 2016-Present</li>
+  		<li>Using C++, Python, and Bash scripting to write software that assists in the study of quantum chemistry.</li>
+  		<li>Resolving bugs in previously built software, MECPro, and creating a GUI to improve user experience. </li>
+  		<li>Presenting at annual Student Research Conference</li>
+  		<li>Providing technical support by phone and skype to users of MECPro</li>
+  		<li>Received Undergraduate Research Award, and ORCA Grant</li>
+  		</ul>
+  	<h3><li>Intern II</li></h3>
+  		<ul>
+  		<li>Operations, Thermo Fisher Scientific -- Pleasanton, California -- July 2017-September 2017</li>
+  		<li>Responsible for the redesign of an existing Redmine Database used to collect improvement ideas for a site with over 500 employees</li>
+  		<li>Included software analysis and comparison of Jira Core and Redmine.</li>
+  		<li>Manipulation of SQL database to reformat the presentation of data</li>
+  		<li>Customization of Javascript, CSS, and Ruby code to meet user stories</li>
+  		<li>Leading demonstrations of the software</li>
+  		</ul>
+  	<h3><li>Web Design Intern</li></h3>
+  		<ul>
+  		<li>Personal Finance Employee Education Fund -- Oxford, United Kingdom -- July 2016-September 2016 </li>
+  		<li>Responsible for organizing and implementing a redesign pfeef.org</li>
+		<li>Team leader of 5 business students with little or no experience with web development.</li>
+		<li>Included teaching students and employees how to use Wordpress, HTML, CSS, and the Avada theme.</li>
+  		</ul>
+  	<h3><li>Office Specialist</li></h3>
+  		<ul>
+  		<li>Global Management Center, Brigham Young University -- Provo, Utah -- April-May 2016</li>
+  		<li>Short term position to manage content and enter data for the Guidebook Application used by study abroad programs.</li>
+  		</ul>
+  	<h3><li>Special Events Staff</li></h3>
+  		<ul>
+  		<li>Brigham Young University -- Provo,Utah -- September-December 2015</li>
+  		<li>Customer Service position as an elevator operator and sporting events.</li>
+  		</ul>
+  	<h3><li>Office Assistant</li></h3>
+  		<ul>
+  		<li>Bothwell & Hamill -- Yakima, Washington -- January-June 2015</li>
+  		<li>Assisting legal assistants by filing client information. Experience sorting medical records, faxing, and making copies.</li>
+  		</ul>
+  	<h3><li>Quality Assurance Developer</li></h3>
+  		<ul>
+  		<li>Center for Teaching and Learning, Brigham Young University -- September 2012-June 2013</li>
+  		<li>Using Javascript to create automated tests for the Learning Suite website used on Campus by over 33,000 students</li>
+  		</ul>
+  </ol>
 </div>
 
+<hr />
+
 <div class="container">
+	<img id="knit-img" src="_wool.jpg" class="center-block img-circle" alt="BYU" width="150" height="150">
+  <h1 id="myHeader">Javascript</h1>
+  <button id="knit-btn" onclick="changeHeader()" type="button" class="center-block btn btn-primary">Click me!</button>
+  <p id="demo"></p>
+
+</div>
+
+
+<hr />
+
+<div id="Connect" class="container">
+  <img src="_BYU_mountain_view.jpg" class="center-block img-circle" alt="BYU" width="150" height="150">
   <h1>Connect</h1>
   <div class="btn-group btn-group-justified">
     <a href="https://www.linkedin.com/in/lilycarlson/" class="btn btn-primary">LinkedIn</a>
@@ -71,5 +166,13 @@
   </div>
 </div>
 
+
+
+<div id="navBar" class="navbar navbar-inverse navbar-bottom">
+	<div class="container-fluid">
+	<h4>Contact me at <a href="mailto:lily.carlson@byu.edu">lily.carlson@byu.edu</a></h4>
+	</div>
+
+</div>
 </body>
 </html>
