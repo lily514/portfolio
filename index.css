@@ -13,7 +13,7 @@
 .bg-mars {
   width: -webkit-fill-available;
   height: 150px;
-  background: url("/portfolio/media/_ttr.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/lily514/portfolio/master/media/_ttr.png") no-repeat center;
   background-size: cover;
   padding-bottom: 80px;
 }
@@ -21,7 +21,7 @@
 .bg-mecp {
   width: -webkit-fill-available;
   height: 150px;
-  background: url("/portfolio/media/_mecpro3.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/lily514/portfolio/master/media/_mecpro3.png") no-repeat center;
   background-size: cover;
   padding-bottom: 80px;
 }
@@ -29,7 +29,7 @@
 .bg-pfeef {
   width: -webkit-fill-available;
   height: 150px;
-  background: url("/portfolio/media/_pfeef.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/lily514/portfolio/master/media/_pfeef.png") no-repeat center;
   background-size: cover;
   padding-bottom: 80px;
 }
@@ -37,42 +37,42 @@
 .bg-cammama {
   width: -webkit-fill-available;
   height: 150px;
-  background: url("/portfolio/media/_cammama.JPG") no-repeat center;
+  background: url("https://raw.githubusercontent.com/lily514/portfolio/master/media/_cammama.JPG") no-repeat center;
   background-size: cover;
 }
 
 .bg-dibs {
   width: -webkit-fill-available;
   height: 150px;
-  background: url("/portfolio/media/_dibs.JPG") no-repeat center;
+  background: url("https://raw.githubusercontent.com/lily514/portfolio/master/media/_dibs.JPG") no-repeat center;
   background-size: cover;
 }
 
 .bg-telly {
   width: -webkit-fill-available;
   height: 150px;
-  background: url("/portfolio/media/_telly.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/lily514/portfolio/master/media/_telly.png") no-repeat center;
   background-size: cover;
 }
 
 .bg-cat {
   width: -webkit-fill-available;
   height: 150px;
-  background: url("/portfolio/media/cat_book_app.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/lily514/portfolio/master/media/cat_book_app.png") no-repeat center;
   background-size: cover;
 }
 
 .bg-sml {
   width: -webkit-fill-available;
   height: 150px;
-  background: url("/portfolio/media/mnist_kde.JPG") no-repeat center;
+  background: url("https://raw.githubusercontent.com/lily514/portfolio/master/media/mnist_kde.JPG") no-repeat center;
   background-size: cover;
 }
 
 .bg-dyn {
   width: -webkit-fill-available;
   height: 150px;
-  background: url("/portfolio/media/_dyn.JPG") no-repeat center;
+  background: url("https://raw.githubusercontent.com/lily514/portfolio/master/media/_dyn.JPG") no-repeat center;
   background-size: cover;
 }
 
