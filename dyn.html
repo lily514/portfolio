@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lily Carlson Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="dyn.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/lab-1-portfolio-lily514/#">LC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/lab-1-portfolio-lily514/#About">About</a></li>
+        <li><a href="/lab-1-portfolio-lily514/#Projects">Projects</a></li>
+        <li><a href="/lab-1-portfolio-lily514/#Connect">Connect</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>DynSuite</h1>  
+  </div>
+</div>
+
+<div id="DYN" class="container">
+    <div class="row">
+      <h2>About</h2>
+      <ul>
+        <li>Molecular Dynamics Program (C++)</li>
+        <li>Uses Gaussian 09 to calculate forces acting on each atom</li>
+        <li>Implements a possible reaction trajectory using Verlet algorithms</li>
+        <li>Aggregates trajectories together</li>
+        <li>Uses a Fortran program, <a href="http://m3g.iqm.unicamp.br/packmol/home.shtml">Packmol</a>, to initialize an explicit solvent container</li>
+        <li>Relies on the Abstract Factory Pattern to implement different Verlet algorithms and solvent containers.</li>
+      </ul>
+      <div class="row">
+        <div class="col-sm-6">
+
+        <p>Methanol solvated in 100 water molecules in a sphere with a radius of 8 Å</p>
+        <video width="400" controls>
+          <source src="traj_rock2.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+
+      <div class="col-sm-6">
+        <p>Sequence Diagram</p>
+        <img class="uml" src="DynSuite_UMLSequenceDiagram.jpg">
+      </div>
+    </div>
+  </div>
+
+<hr />
+
+    <div class="row">
+      <h2>Code Samples</h2>
+      <a href="/lab-1-portfolio-lily514/src/Cube.h">Cube.h</a>
+      <a href="/lab-1-portfolio-lily514/src/Cube.cpp">Cube.cpp</a>
+      <a href="/lab-1-portfolio-lily514/src/SimulationStructure.h">SimulationStructure.h</a>
+      <a href="/lab-1-portfolio-lily514/src/SimulationStructure.cpp">SimulationStructure.cpp</a>
+
+    </div>
+
+
+</div>
+
+
+
+<div id="navBar" class="navbar navbar-inverse navbar-bottom">
+	<div id="Connect" class="container-fluid">
+	<h4>Reach me at <a href="mailto:lily.carlson@byu.edu">lily.carlson@byu.edu</a> or on <a href="https://www.linkedin.com/in/lilycarlson/">Linked In</a>.</h4>
+	</div>
+
+</div>
+</body>
+</html>

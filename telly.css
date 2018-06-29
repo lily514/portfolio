@@ -1,0 +1,14 @@
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+}
+
+textarea
+{
+    border: none; 
+    resize: none   
+}
+
+.uml {
+	width:100%;
+}

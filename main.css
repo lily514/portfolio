@@ -1,7 +1,7 @@
 .jumbotron {
   background-color: #3E4736;
   color: #F7F7F2;
-  padding-top: 80px;
+  padding-top: 5%;
   padding-bottom: 0px;
 }
 
@@ -43,28 +43,13 @@ li {
   font-family: 'Quattrocento', sans-serif;
 }
 
-/*a {
-  font-family: 'Quattrocento', sans-serif;
-  font-weight: bold;
-  font-color: #3E4736;
-}*/
-
 .jumbotron .container {
-  padding-bottom: 24px;
+  padding-bottom: 5%;
 }
 
 .container {
-  padding: 16px;
+  padding: 5%
 }
-
-/*.btn-primary {
-  background-color: #3E4736;
-  border-color: #2F3529;
-}
-.btn-primary:hover {
-  background-color: #6F6875;
-}
-*/
 
 
 

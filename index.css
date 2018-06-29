@@ -1,0 +1,85 @@
+/* Add shadows on hover */
+.bg:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.bg {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.bg-mars {
+  width: -webkit-fill-available;
+  height: 150px;
+  background: url("_ttr.png") no-repeat center;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+
+.bg-mecp {
+  width: -webkit-fill-available;
+  height: 150px;
+  background: url("_mecpro3.png") no-repeat center;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+
+.bg-pfeef {
+  width: -webkit-fill-available;
+  height: 150px;
+  background: url("_pfeef.png") no-repeat center;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+
+.bg-cammama {
+  width: -webkit-fill-available;
+  height: 150px;
+  background: url("_cammama.JPG") no-repeat center;
+  background-size: cover;
+}
+
+.bg-dibs {
+  width: -webkit-fill-available;
+  height: 150px;
+  background: url("_dibs.JPG") no-repeat center;
+  background-size: cover;
+}
+
+.bg-telly {
+  width: -webkit-fill-available;
+  height: 150px;
+  background: url("_telly.png") no-repeat center;
+  background-size: cover;
+}
+
+.bg-cat {
+  width: -webkit-fill-available;
+  height: 150px;
+  background: url("cat_book_app.png") no-repeat center;
+  background-size: cover;
+}
+
+.bg-sml {
+  width: -webkit-fill-available;
+  height: 150px;
+  background: url("mnist_kde.JPG") no-repeat center;
+  background-size: cover;
+}
+
+.bg-dyn {
+  width: -webkit-fill-available;
+  height: 150px;
+  background: url("_dyn.JPG") no-repeat center;
+  background-size: cover;
+}
+
+.about {
+  padding-bottom: 5%;
+}
+
+.about-img{
+  padding: 1%;
+}

@@ -1,0 +1,19 @@
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+}
+
+.landscape {
+	width:100%;
+}
+
+.portrait {
+	width:100%;
+}
+
+.bg {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
